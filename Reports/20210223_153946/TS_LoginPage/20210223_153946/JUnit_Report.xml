@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_LoginPage" time="24.792" tests="1" failures="0" skips="0" errors="0">
+   <testsuite name="TS_LoginPage" tests="1" failures="0" errors="0" time="24.792" skips="0" timestamp="2021-02-23 15:39:50" hostname="Intek SS - INSTRUCTOR-PC" id="Test Suites/TS_LoginPage">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="T:\\MariaUlfah\\Workspace\\TESTCENTER\\QAQC\\demo-orangehrm\\Reports\\20210223_153946\\TS_LoginPage\\20210223_153946"/>
+         <property name="logFiles" value="T:\\MariaUlfah\\Workspace\\TESTCENTER\\QAQC\\demo-orangehrm\\Reports\\20210223_153946\\TS_LoginPage\\20210223_153946\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Intek SS - INSTRUCTOR-PC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.9.1.208"/>
+         <property name="browser" value="Chrome 88.0.4324.190"/>
+         <property name="hostAddress" value="192.168.2.31"/>
+         <property name="sessionId" value="475f4853b693bb035a4b4902641186ac"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_LoginP" time="22.835" classname="Test Cases/TC_LoginP" status="PASSED">
+         <system-out><![CDATA[2021-02-23 15:39:51 - [TEST_CASE][PASSED] - Test Cases/TC_LoginP: Test Cases/TC_LoginP
+
+2021-02-23 15:39:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-02-23 15:39:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-23 15:39:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-23 15:39:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-02-23 15:39:54 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+2021-02-23 15:40:04 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+2021-02-23 15:40:04 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage_OrangeHRM/form_LOGIN Panel                           _b98207")): Object: 'Object Repository/LoginPage_OrangeHRM/form_LOGIN Panel                           _b98207' is clicked on
+
+2021-02-23 15:40:05 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage_OrangeHRM/form_LOGIN Panel                           _b98207' is clicked on
+
+2021-02-23 15:40:05 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage_OrangeHRM/span_Username")): Object: 'Object Repository/LoginPage_OrangeHRM/span_Username' is clicked on
+
+2021-02-23 15:40:05 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage_OrangeHRM/span_Username' is clicked on
+
+2021-02-23 15:40:05 - [TEST_STEP][PASSED] - setText(findTestObject("LoginPage_OrangeHRM/input_LOGIN Panel_txtUsername"), Username): Text 'admin' is set on object 'Object Repository/LoginPage_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2021-02-23 15:40:06 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/LoginPage_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2021-02-23 15:40:06 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("LoginPage_OrangeHRM/input_Username_txtPassword"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/LoginPage_OrangeHRM/input_Username_txtPassword'
+
+2021-02-23 15:40:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginPage_OrangeHRM/input_Username_txtPassword'
+
+2021-02-23 15:40:06 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage_OrangeHRM/input_Password_Submit")): Object: 'Object Repository/LoginPage_OrangeHRM/input_Password_Submit' is clicked on
+
+2021-02-23 15:40:11 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage_OrangeHRM/input_Password_Submit' is clicked on
+
+2021-02-23 15:40:11 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage_OrangeHRM/a_Welcome Paul")): Object: 'Object Repository/LoginPage_OrangeHRM/a_Welcome Paul' is clicked on
+
+2021-02-23 15:40:12 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage_OrangeHRM/a_Welcome Paul' is clicked on
+
+2021-02-23 15:40:12 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage_OrangeHRM/a_Logout")): Object: 'Object Repository/LoginPage_OrangeHRM/a_Logout' is clicked on
+
+2021-02-23 15:40:14 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage_OrangeHRM/a_Logout' is clicked on
+
+2021-02-23 15:40:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-02-23 15:40:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-02-23 15:39:50 - [TEST_SUITE][PASSED] - TS_LoginPage: Test Cases/TC_LoginP]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

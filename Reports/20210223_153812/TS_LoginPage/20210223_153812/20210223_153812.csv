@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_LoginPage,Chrome 88.0.4324.190,,,2021-02-23 15:38:16,2021-02-23 15:38:22,"6,066s",FAILED
+,,,,,,,
+Test Cases/TC_LoginP,Chrome 88.0.4324.190,,,2021-02-23 15:38:17,2021-02-23 15:38:22,"4,404s",FAILED
+"openBrowser("""")",Chrome 88.0.4324.190,,,2021-02-23 15:38:18,2021-02-23 15:38:21,"3,462s",PASSED
+navigateToUrl(URL),Chrome 88.0.4324.190,,,2021-02-23 15:38:21,2021-02-23 15:38:22,"0,409s",FAILED
