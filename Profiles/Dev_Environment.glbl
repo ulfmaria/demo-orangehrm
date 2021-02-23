@@ -9,4 +9,9 @@
       <initValue>'https://opensource-demo.orangehrmlive.com/'</initValue>
       <name>URL</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'admin'</initValue>
+      <name>Username</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
